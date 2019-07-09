@@ -1,0 +1,187 @@
+
+*{
+    box-sizing: border-box; 
+}
+
+body {
+    background: #cccccc; 
+
+}
+
+header {
+    background: #ffffff;
+  }
+
+#name{
+    background: #4aaaa5; 
+    width: 200px; 
+    height: 50px; 
+    color: #ffffff; 
+    font-size: 45px; 
+    font-family:'Georgia', Times, Times New Roman, serif;
+    text-align: center; 
+    float: left; 
+    
+}
+.nav1{
+    color: #777777; 
+    font-size: 20px; 
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    float: right;
+
+}
+
+#portfolio{
+    border-left: solid; 
+    border-right: solid; 
+    border-color: #777777;
+}
+#full {
+    width: 959px;
+    overflow: auto;
+    clear: both;
+    color:  #4aaaa5;
+    background: #ffffff; 
+    padding: 10px; 
+    margin-top: 30px; 
+    font-size: 35px; 
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    border-color: #dddddd; 
+    height: 520px; 
+    padding-bottom: 20px; 
+
+    
+  }
+
+  .container1{
+    width: 960px; 
+    margin: 0 auto; 
+    background: white; 
+  
+}
+
+.container2{
+    width: 960px; 
+    margin: 0 auto;  
+    height: 600px;  
+    background: white; 
+}
+
+  .text{
+      color: #777777; 
+      font-family:'Georgia', Times, Times New Roman, serif;
+      font-size: 18px; 
+      float: right; 
+  }
+
+
+.footer {
+    padding: 20px;
+    clear: both;
+    color: #777777; 
+    background: #666666;
+    text-align: center; 
+    font-family:'Georgia', Times, Times New Roman, serif;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    width: 100%; 
+  
+}
+
+.form{
+   font-family:  Arial, 'Helvetica Neue', Helvetica, sans-serif;
+   color: black; 
+   font-size: 30px; 
+   background: white; 
+ 
+}
+
+button{
+    background-color: #008CBA; 
+}
+
+#textbox{
+    height: 200px; 
+}
+.clearfix{
+    content: " "; 
+    display: table; 
+    clear: both; 
+}
+
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+    body {
+        background: #cccccc; 
+    
+    }
+  
+    .container1,
+    .container2{
+      /* Box-model */
+      width: 100%;
+      padding: 10px;
+    }
+
+    #full{
+        width: 100%; 
+    }
+
+    .form{
+        width: 100%; 
+    }
+  
+
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+        background: #cccccc; 
+    
+    }
+  
+    .container1,
+    .container2{
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+
+    #full{
+        width: 100%; 
+    }
+
+    .form{
+        width: 100%; 
+    }
+
+ 
+  }
+
+  @media screen and (max-width: 640px) {
+    body {
+        background: #cccccc; 
+    
+    }
+
+    header{
+        position: static;
+    }
+  
+    .container1,
+    .container2{
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    #full{
+        width: 100%; 
+    }
+
+    .form{
+        width: 100%; 
+    }
+
+  }
