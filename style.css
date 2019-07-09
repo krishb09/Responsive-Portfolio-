@@ -132,6 +132,12 @@ button{
     .form{
         width: 100%; 
     }
+
+    /* .nav1{
+        float: none; 
+    } */
+
+  
   
 
   }
@@ -183,5 +189,15 @@ button{
     .form{
         width: 100%; 
     }
+
+     .nav1{
+        float: none; 
+        text-align: center; 
+    }
+    #name{
+        float: none; 
+        width: 100%; 
+    }
+   
 
   }
